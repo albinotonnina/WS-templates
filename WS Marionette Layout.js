@@ -10,7 +10,7 @@ define(function (require){
     var Marionette = require('backbone.marionette'),
         //_ = require('underscore'),
         //Backbone = require('backbone'),
-        JST = require('YOUR-ui.templates');
+        JST = require('${REPO}.templates');
 
     /**
      * @class ${NAME}
