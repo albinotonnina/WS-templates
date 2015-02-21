@@ -8,7 +8,7 @@ define(function (require){
     'use strict';
 
     var Backbone = require('backbone'),
-        modelType = require('../models/${NAME}');
+        ${ModelName} = require('../models/${ModelName}');
 
     /**
      * @class ${NAME}
@@ -27,7 +27,7 @@ define(function (require){
         },
 
         /** @private */
-        model: modelType,
+        model: ${ModelName},
 
         /** @private */
         parse: function (response){

@@ -9,9 +9,9 @@ define(function (require){
 
     var Marionette = require('backbone.marionette'),
     //_ = require('underscore'),
-        MyCollection = require('../collections/MyCollection'),
-        MyEmptyView = require('../views/MyEmptyView'),
-        MyItemView = require('../views/MyItemView');
+        ${CollectionName} = require('../collections/${CollectionName}'),
+        ${EmptyView} = require('../views/${EmptyView}'),
+        ${ItemView} = require('../views/${ItemView}');
 
     /**
      * @class ${NAME}
@@ -20,10 +20,10 @@ define(function (require){
     return Marionette.CollectionView.extend({
 
         /** @private */
-        itemView: MyItemView,
+        itemView: ${ItemView},
 
         /** @private */
-        emptyView: MyEmptyView,
+        emptyView: ${EmptyView},
 
         /** @private */
         tagName: 'div',
@@ -35,7 +35,7 @@ define(function (require){
         className: '${NAME}',
 
         /** @private */
-        collection: MyCollection,
+        collection: ${CollectionName},
 
         /** @private */
         collectionEvents: {

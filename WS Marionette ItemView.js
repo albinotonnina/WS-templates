@@ -9,7 +9,7 @@ define(function (require){
 
     var Marionette = require('backbone.marionette'),
     //_ = require ('underscore'),
-        JST = require('YOUR-ui.templates');
+        JST = require('${REPO}-ui.templates');
 
     /**
      * @class ${NAME}
@@ -18,7 +18,7 @@ define(function (require){
     return Marionette.ItemView.extend({
 
         /** @private */
-        template: JST['lib/scripts/YOURPATH/templates/${NAME}.hbs'],
+        template: JST['lib/scripts/${PATH}/templates/${NAME}.hbs'],
 
         /** @private */
         tagName: 'div',

@@ -22,8 +22,7 @@ define(function (require){
 
         /** @private */
         defaults: {
-            id: undefined,
-            name: undefined
+
         },
 
         /** @private */

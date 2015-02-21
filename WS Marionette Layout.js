@@ -8,8 +8,8 @@ define(function (require){
     'use strict';
 
     var Marionette = require('backbone.marionette'),
-    //_ = require('underscore'),
-    //Backbone = require('backbone'),
+        //_ = require('underscore'),
+        //Backbone = require('backbone'),
         JST = require('YOUR-ui.templates');
 
     /**
@@ -25,7 +25,7 @@ define(function (require){
         className: '${NAME}',
 
         /** @private */
-        template: JST['lib/scripts/YOURPATH/templates/${NAME}.hbs'],
+        template: JST['lib/scripts/${PATH}/templates/${NAME}.hbs'],
 
         /** @private */
         events: {
