@@ -40,8 +40,7 @@ define(function (require){
 
         /** @private */
         initialize: function (options){
-            this.firstView = this.controller.getFIrstView();
-            this.secondView = this.controller.getSecondView();
+
         },
 
         /** @private */
@@ -51,8 +50,7 @@ define(function (require){
 
         /** @private */
         onRender: function (){
-            this.firstRegion.show(this.firstView);
-            this.secondRegion.show(this.secondView);
+         
         }
     });
 });
