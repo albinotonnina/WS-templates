@@ -1,4 +1,7 @@
 /**
+ * Created by albinotonnina on 21/02/2015.
+ */
+/**
  * Created by ${USER} on ${DATE}.
  */
 
@@ -9,15 +12,16 @@ define(function (require){
 
     var Marionette = require('backbone.marionette'),
     //_ = require('underscore'),
+        JST = require('YOUR-ui.templates'),
         MyCollection = require('../collections/MyCollection'),
         MyEmptyView = require('../views/MyEmptyView'),
         MyItemView = require('../views/MyItemView');
 
     /**
      * @class ${NAME}
-     * @extends Marionette.CollectionView
+     * @extends Marionette.CompositeView
      */
-    return Marionette.CollectionView.extend({
+    return Marionette.CompositeView.extend({
 
         /** @private */
         itemView: MyItemView,
@@ -36,6 +40,9 @@ define(function (require){
 
         /** @private */
         collection: MyCollection,
+
+        /** @private */
+        template: JST['../templates/${NAME}.hbs'],
 
         /** @private */
         collectionEvents: {
