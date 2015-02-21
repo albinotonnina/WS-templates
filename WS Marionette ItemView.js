@@ -9,7 +9,7 @@ define(function (require){
 
     var Marionette = require('backbone.marionette'),
     //_ = require ('underscore'),
-        JST = require('${REPO}-ui.templates');
+        JST = require('${REPO}.templates');
 
     /**
      * @class ${NAME}
@@ -60,7 +60,7 @@ define(function (require){
         /** @private */
         _renderView: function (){
             // ...
-        }
+        },
 
         //serializeData: function () {
         //    return _.extend(this.model.toJSON(), {
