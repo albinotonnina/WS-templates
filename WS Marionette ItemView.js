@@ -35,7 +35,7 @@ define(function (require){
         },
 
         events: {
-            'click .hook': 'doAction'
+            'click @ui.hook': 'doAction'
         },
 
         initialize: function (options){
