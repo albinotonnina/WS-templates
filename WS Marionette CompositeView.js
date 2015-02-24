@@ -10,7 +10,6 @@ define(function (require){
     var Marionette = require('backbone.marionette'),
     //_ = require('underscore'),
         JST = require('${REPO}.templates'),
-        ${CollectionName} = require('../collections/${CollectionName}'),
         ${EmptyView} = require('../views/${EmptyView}'),
         ${ItemView} = require('../views/${ItemView}');
 
@@ -37,9 +36,6 @@ define(function (require){
 
         /** @private */
         className: '${NAME}',
-
-        /** @private */
-        collection: ${CollectionName},
 
         /** @private */
         template: JST['../templates/${NAME}.hbs'],
