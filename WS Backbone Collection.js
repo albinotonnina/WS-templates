@@ -23,7 +23,7 @@ define(function (require){
 
         /** @private */
         url: function (){
-            return 'youtpath/${NAME}.json'
+            return '${ENDPOINT}'
         },
 
         /** @private */
