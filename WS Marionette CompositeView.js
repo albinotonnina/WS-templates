@@ -24,6 +24,9 @@ define(function (require){
         itemView: ${ItemView},
 
         /** @private */
+        itemViewContainer: '${ItemContainer}',
+
+        /** @private */
         emptyView: ${EmptyView},
 
         /** @private */
