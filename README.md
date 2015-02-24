@@ -1,6 +1,10 @@
 # WS-templates
 Backbone Marionette Application
 
+##A huge thank you to Eugenio Romano and Andras Popovics for the code used for this.
+
+
+
 To be used in Webstorm
 
 https://www.jetbrains.com/webstorm/help/file-and-code-templates.html
