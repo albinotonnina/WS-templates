@@ -42,8 +42,7 @@ define(function (require){
 
         /** @private */
         collectionEvents: {
-            'custom:event': 'render',
-            'sync': 'render'
+            'custom:event': 'render'
         },
 
         initialize: function (options){
